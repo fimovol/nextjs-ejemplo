@@ -31,11 +31,39 @@ export const Nav = () => {
     </>
 }
 
-export const Aside = ({children}) => {
+export const Aside = () => {
     return <>
         <aside className={styles.aside}>
-            esto aprareceajkdkla k
-            {children}
+            <h1>este es el condedido que esta dentro de aside</h1>
+            <p>asjdasjkdhaskh dkash jk hjkhasjkfh aksdjlh fklasdhflak sh</p>
+            <p>asjdasjkdhaskh dkash jk hjkhasjkfh aksdjlh fklasdhflak sh</p>
+            <p>asjdasjkdhaskh dkash jk hjkhasjkfh aksdjlh fklasdhflak sh</p>
+            <p>asjdasjkdhaskh dkash jk hjkhasjkfh aksdjlh fklasdhflak sh</p>
+
         </aside>
+        <style jsx>{`
+        h1{
+            color:#0099ff;
+        }
+        `}</style>
+    </>
+}
+export const Main = ({children}) => {
+    return <>
+        <main>
+            <article>
+                {children}
+            </article>
+        </main>
+        <style jsx>{`
+        main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        article{
+            width: 98%;
+        }
+        `}</style>
     </>
 }

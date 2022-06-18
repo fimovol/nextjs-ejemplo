@@ -23,8 +23,12 @@
 }
 .aside{
     display:flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(125, 227, 36);
+    background-color: rgb(151, 156, 146);
+}
+.mainconteiner{
+    display: grid;
+    grid-template-columns: 70% 30%;
 }
