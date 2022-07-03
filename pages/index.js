@@ -59,7 +59,7 @@ export default function Home() {
           <div className='sm:w-full lg:w-2/5'>
             <h1 className='text-neutral-800 capitalize text-4xl font-medium'>Aquí, sentirá la alegría de un cebiche peruano</h1>
             <p className=' text-neutral-800 pt-8 pb-10'>Nuestro propósito es lograr sobrepasar las expectativas de nuestros clientes basándonos en la mejora continua de la calidad, servicio, limpieza, sabor y sazón</p>
-            <Readmore>Leer más</Readmore>
+            <Readmore>LEER MAS</Readmore>
           </div>
           <ImagenComponente/>
         </div>
